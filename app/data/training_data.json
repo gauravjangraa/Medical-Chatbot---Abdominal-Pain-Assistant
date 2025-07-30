@@ -1,0 +1,406 @@
+{
+  "medical_knowledge": {
+    "conditions": {
+      "gastritis": {
+        "name": "Gastritis",
+        "description": "Inflammation of the stomach lining that can cause burning pain, nausea, and digestive discomfort.",
+        "symptoms": [
+          "burning stomach pain",
+          "nausea and vomiting",
+          "bloating and fullness",
+          "loss of appetite",
+          "indigestion",
+          "hiccups",
+          "dark or tarry stools"
+        ],
+        "causes": [
+          "Helicobacter pylori (H. pylori) bacterial infection",
+          "Regular use of NSAIDs (ibuprofen, aspirin)",
+          "Excessive alcohol consumption",
+          "Chronic stress",
+          "Bile reflux",
+          "Autoimmune disorders",
+          "Viral infections"
+        ],
+        "location": "upper abdomen, epigastric region",
+        "severity": "mild to moderate",
+        "duration": "acute (sudden onset) or chronic (long-term)",
+        "risk_factors": [
+          "Age over 60",
+          "Regular NSAID use",
+          "Excessive alcohol consumption",
+          "Smoking",
+          "Stress",
+          "H. pylori infection"
+        ],
+        "complications": [
+          "peptic ulcers",
+          "stomach bleeding",
+          "increased risk of stomach cancer"
+        ]
+      },
+      "appendicitis": {
+        "name": "Appendicitis",
+        "description": "Inflammation of the appendix that typically requires emergency surgical removal.",
+        "symptoms": [
+          "sudden pain near navel that shifts to lower right abdomen",
+          "sharp, stabbing pain that worsens with movement",
+          "nausea and vomiting",
+          "low-grade fever",
+          "loss of appetite",
+          "constipation or diarrhea",
+          "abdominal swelling",
+          "inability to pass gas"
+        ],
+        "causes": [
+          "blockage of the appendiceal lumen",
+          "fecal matter accumulation",
+          "enlarged lymphoid follicles",
+          "intestinal worms",
+          "traumatic injury",
+          "tumors (rare)"
+        ],
+        "location": "lower right abdomen (McBurney's point)",
+        "severity": "severe - medical emergency",
+        "duration": "acute onset, rapidly progressing",
+        "risk_factors": [
+          "Age 10-30 years (most common)",
+          "Male gender (slightly higher risk)",
+          "Family history",
+          "Cystic fibrosis"
+        ],
+        "complications": [
+          "appendix rupture",
+          "peritonitis",
+          "abscess formation",
+          "sepsis"
+        ]
+      },
+      "irritable_bowel_syndrome": {
+        "name": "Irritable Bowel Syndrome (IBS)",
+        "description": "A functional gastrointestinal disorder causing recurring abdominal pain and altered bowel habits.",
+        "symptoms": [
+          "abdominal cramping and pain",
+          "bloating and gas",
+          "diarrhea, constipation, or alternating between both",
+          "mucus in stool",
+          "feeling of incomplete bowel evacuation",
+          "urgency to have bowel movements",
+          "abdominal distension"
+        ],
+        "causes": [
+          "abnormal gut-brain communication",
+          "altered gut microbiome",
+          "food sensitivities",
+          "stress and anxiety",
+          "hormonal changes",
+          "previous gastrointestinal infections",
+          "genetic factors"
+        ],
+        "location": "lower abdomen, can be widespread",
+        "severity": "mild to moderate, chronic condition",
+        "duration": "chronic with episodic flare-ups",
+        "risk_factors": [
+          "Age under 50",
+          "Female gender",
+          "Family history of IBS",
+          "Mental health disorders",
+          "History of gastroenteritis"
+        ],
+        "triggers": [
+          "certain foods (FODMAPs)",
+          "stress and anxiety",
+          "hormonal changes",
+          "medications",
+          "infections"
+        ]
+      },
+      "gallstones": {
+        "name": "Gallstones (Cholelithiasis)",
+        "description": "Hard deposits that form in the gallbladder, potentially blocking bile ducts and causing intense pain.",
+        "symptoms": [
+          "sudden severe pain in upper right abdomen",
+          "pain radiating to back and right shoulder",
+          "pain triggered by fatty meals",
+          "nausea and vomiting",
+          "fever and chills (if infection present)",
+          "yellowing of skin and eyes (jaundice)",
+          "clay-colored stools",
+          "dark urine"
+        ],
+        "causes": [
+          "excess cholesterol in bile",
+          "excess bilirubin in bile",
+          "gallbladder doesn't empty properly",
+          "genetic predisposition",
+          "rapid weight loss",
+          "certain medications"
+        ],
+        "location": "upper right abdomen, may radiate to back",
+        "severity": "moderate to severe during attacks",
+        "duration": "episodic attacks lasting minutes to hours",
+        "risk_factors": [
+          "Female gender",
+          "Age over 40",
+          "Obesity",
+          "Rapid weight loss",
+          "Pregnancy",
+          "Native American or Hispanic ethnicity",
+          "Diabetes",
+          "High cholesterol"
+        ],
+        "complications": [
+          "cholecystitis (gallbladder inflammation)",
+          "bile duct blockage",
+          "pancreatitis",
+          "gallbladder cancer (rare)"
+        ]
+      },
+      "peptic_ulcer": {
+        "name": "Peptic Ulcer Disease",
+        "description": "Open sores that develop on the inner lining of the stomach or upper portion of the small intestine.",
+        "symptoms": [
+          "burning stomach pain (most common symptom)",
+          "pain that may worsen between meals and at night",
+          "pain that temporarily improves after eating or taking antacids",
+          "nausea and vomiting",
+          "loss of appetite",
+          "unexplained weight loss",
+          "bloating and burping",
+          "heartburn",
+          "dark or black stools (indicating bleeding)"
+        ],
+        "causes": [
+          "Helicobacter pylori (H. pylori) bacterial infection",
+          "long-term use of NSAIDs",
+          "Zollinger-Ellison syndrome",
+          "excessive acid production",
+          "smoking",
+          "excessive alcohol consumption"
+        ],
+        "location": "upper abdomen, epigastric region",
+        "severity": "mild to severe, can be life-threatening if bleeding occurs",
+        "duration": "chronic condition with periods of remission and flare-ups",
+        "risk_factors": [
+          "H. pylori infection",
+          "Regular NSAID use",
+          "Smoking",
+          "Excessive alcohol consumption",
+          "Age over 50",
+          "Stress (may worsen symptoms)"
+        ],
+        "complications": [
+          "internal bleeding",
+          "perforation (hole in stomach wall)",
+          "obstruction",
+          "increased risk of stomach cancer"
+        ]
+      },
+      "food_poisoning": {
+        "name": "Food Poisoning (Foodborne Illness)",
+        "description": "Illness caused by consuming contaminated food or beverages containing harmful bacteria, viruses, or parasites.",
+        "symptoms": [
+          "sudden onset of nausea",
+          "vomiting",
+          "watery or bloody diarrhea",
+          "abdominal cramps and pain",
+          "fever and chills",
+          "headache",
+          "muscle aches",
+          "dehydration"
+        ],
+        "causes": [
+          "Salmonella bacteria",
+          "E. coli bacteria",
+          "Campylobacter bacteria",
+          "Norovirus",
+          "Clostridium perfringens",
+          "Staphylococcus aureus toxins",
+          "contaminated water",
+          "undercooked meat or eggs",
+          "unpasteurized dairy products"
+        ],
+        "location": "general abdominal area",
+        "severity": "mild to moderate, can be severe in vulnerable populations",
+        "duration": "acute, usually resolves within 3-7 days",
+        "risk_factors": [
+          "consuming undercooked foods",
+          "poor food handling practices",
+          "compromised immune system",
+          "age (very young or elderly)",
+          "pregnancy",
+          "chronic medical conditions"
+        ],
+        "prevention": [
+          "proper food storage and cooking",
+          "good hand hygiene",
+          "avoiding cross-contamination",
+          "drinking safe water"
+        ]
+      },
+      "kidney_stones": {
+        "name": "Kidney Stones (Nephrolithiasis)",
+        "description": "Hard deposits made of minerals and salts that form inside the kidneys and can cause severe pain when passing.",
+        "symptoms": [
+          "severe sharp pain in side and back",
+          "pain that radiates to lower abdomen and groin",
+          "pain that comes in waves and fluctuates in intensity",
+          "painful urination",
+          "blood in urine (pink, red, or brown)",
+          "cloudy or foul-smelling urine",
+          "nausea and vomiting",
+          "frequent urination",
+          "fever and chills (if infection present)"
+        ],
+        "causes": [
+          "dehydration",
+          "high sodium diet",
+          "excessive calcium or oxalate intake",
+          "certain medications",
+          "digestive diseases",
+          "genetic factors",
+          "urinary tract infections"
+        ],
+        "location": "flank pain (side and back), radiating to groin",
+        "severity": "severe during stone passage",
+        "duration": "episodic, pain comes in waves",
+        "risk_factors": [
+          "dehydration",
+          "male gender",
+          "age 30-50",
+          "family history",
+          "obesity",
+          "high protein, sodium, or sugar diet",
+          "digestive diseases",
+          "urinary tract infections"
+        ],
+        "types": [
+          "calcium stones (most common)",
+          "uric acid stones",
+          "struvite stones",
+          "cystine stones"
+        ]
+      }
+    },
+    "warning_signs": [
+      {
+        "symptom": "severe persistent abdominal pain",
+        "urgency": "emergency",
+        "description": "Pain that doesn't improve with rest or over-the-counter medication"
+      },
+      {
+        "symptom": "high fever (over 101°F/38.3°C)",
+        "urgency": "urgent",
+        "description": "Especially when combined with abdominal pain"
+      },
+      {
+        "symptom": "blood in vomit or stool",
+        "urgency": "emergency",
+        "description": "May indicate internal bleeding"
+      },
+      {
+        "symptom": "difficulty breathing",
+        "urgency": "emergency",
+        "description": "Shortness of breath with abdominal pain"
+      },
+      {
+        "symptom": "chest pain with abdominal pain",
+        "urgency": "emergency",
+        "description": "Could indicate heart problems or other serious conditions"
+      },
+      {
+        "symptom": "rapid pulse or heart rate",
+        "urgency": "urgent",
+        "description": "May indicate serious illness or blood loss"
+      },
+      {
+        "symptom": "signs of severe dehydration",
+        "urgency": "urgent",
+        "description": "Dizziness, dry mouth, little or no urination"
+      },
+      {
+        "symptom": "inability to pass gas or have bowel movement",
+        "urgency": "emergency",
+        "description": "May indicate bowel obstruction"
+      },
+      {
+        "symptom": "yellowing of skin or eyes (jaundice)",
+        "urgency": "urgent",
+        "description": "May indicate liver or gallbladder problems"
+      },
+      {
+        "symptom": "severe tenderness when touching abdomen",
+        "urgency": "emergency",
+        "description": "May indicate peritonitis or other serious conditions"
+      }
+    ]
+  },
+  "conversation_templates": [
+    {
+      "patient_input": "I have sharp pain in my upper right abdomen that gets worse after eating",
+      "assistant_response": "Based on your symptoms of sharp upper right abdominal pain that worsens after eating, this could be related to gallbladder issues such as gallstones. This type of pain pattern is characteristic of gallbladder problems.\n\n**Key characteristics of gallbladder pain:**\n• Located in upper right abdomen\n• Often triggered by fatty or large meals\n• May radiate to back or right shoulder\n• Can be accompanied by nausea\n\n**I recommend:**\n• Avoiding fatty foods temporarily\n• Consulting with a healthcare provider for proper evaluation\n• Seeking immediate care if pain becomes severe or you develop fever\n\n*This information is for educational purposes only and should not replace professional medical advice.*"
+    },
+    {
+      "patient_input": "I've been having burning stomach pain and nausea for the past few days",
+      "assistant_response": "The combination of burning stomach pain and nausea over several days suggests possible gastritis (stomach lining inflammation) or peptic ulcer disease.\n\n**Common causes include:**\n• H. pylori bacterial infection\n• NSAIDs (ibuprofen, aspirin) use\n• Stress or spicy foods\n• Excessive alcohol consumption\n\n**Typical symptoms:**\n• Burning pain in upper abdomen\n• Nausea, especially on empty stomach\n• Pain that may improve temporarily after eating\n• Bloating and loss of appetite\n\n**Recommendations:**\n• Avoid NSAIDs, alcohol, and spicy foods\n• Eat smaller, more frequent meals\n• Consider over-the-counter antacids for temporary relief\n• See a healthcare provider if symptoms persist beyond a few days\n\n*Please consult a medical professional for proper diagnosis and treatment.*"
+    },
+    {
+      "patient_input": "I have cramping pain in my lower abdomen with bloating and gas",
+      "assistant_response": "Your symptoms of cramping, bloating, and gas in the lower abdomen are commonly associated with digestive issues like Irritable Bowel Syndrome (IBS) or dietary intolerances.\n\n**Possible causes:**\n• IBS (functional bowel disorder)\n• Food intolerances (lactose, gluten)\n• Dietary triggers (high FODMAP foods)\n• Stress and anxiety\n• Changes in gut bacteria\n\n**Management suggestions:**\n• Keep a food diary to identify triggers\n• Try eliminating common triggers (dairy, wheat, beans)\n• Increase fiber gradually\n• Manage stress through relaxation techniques\n• Stay hydrated and exercise regularly\n\n**See a doctor if you experience:**\n• Severe pain\n• Blood in stool\n• Unexplained weight loss\n• Fever\n• Symptoms that significantly impact daily life\n\n*This guidance is educational and doesn't replace professional medical consultation.*"
+    },
+    {
+      "patient_input": "Hello, can you help me understand my stomach pain?",
+      "assistant_response": "Hello! I'm here to help you understand abdominal pain and related symptoms. I specialize in providing information about:\n\n• **Possible causes** of different types of abdominal pain\n• **Warning signs** that need immediate medical attention\n• **Symptom patterns** and what they might indicate\n• **When to see a doctor** for proper evaluation\n\nTo provide you with the most relevant information, could you please describe:\n• Where exactly is the pain located?\n• How would you describe the pain (sharp, burning, cramping)?\n• When did it start and how long have you had it?\n• Are there any other symptoms (nausea, fever, changes in bowel habits)?\n• Does anything make it better or worse?\n\nI'm here to help guide you with educational information, but remember that this should complement, not replace, professional medical advice."
+    },
+    {
+      "patient_input": "What are the warning signs that my abdominal pain is serious?",
+      "assistant_response": "There are several warning signs that indicate abdominal pain requires immediate medical attention:\n\n**🚨 EMERGENCY - Call 911 or go to ER immediately:**\n• Severe, persistent pain that doesn't improve\n• Blood in vomit or stool (black, tarry, or bright red)\n• Difficulty breathing or chest pain\n• Signs of shock (rapid pulse, dizziness, fainting)\n• Inability to pass gas or have bowel movements\n• Severe abdominal tenderness when touched\n\n**⚠️ URGENT - See a doctor today:**\n• High fever (over 101°F/38.3°C) with abdominal pain\n• Persistent vomiting that prevents keeping fluids down\n• Signs of dehydration (dizziness, dry mouth, little urination)\n• Yellowing of skin or eyes (jaundice)\n• Severe pain that suddenly stops (could indicate rupture)\n\n**📞 Schedule appointment soon:**\n• Pain lasting more than a few days\n• Unexplained weight loss\n• Changes in bowel habits lasting weeks\n• Pain that interferes with daily activities\n\n**Trust your instincts** - if something feels seriously wrong, don't hesitate to seek immediate medical care. It's always better to be cautious with abdominal pain."
+    }
+  ],
+  "common_responses": {
+    "greetings": {
+      "hello": "Hello! I'm here to help you understand abdominal pain and related symptoms. How can I assist you today?",
+      "hi": "Hi there! I'm your medical assistant specializing in abdominal pain. What symptoms or concerns can I help you with?",
+      "good_morning": "Good morning! I'm ready to help you with any questions about abdominal pain or digestive symptoms. How are you feeling?",
+      "hey": "Hey! I'm here to provide information about abdominal pain and when to seek medical care. What can I help you with?"
+    },
+    "how_are_you": {
+      "default": "Thank you for asking! I'm doing well and ready to help you with any questions about abdominal pain. How are you feeling today?",
+      "alternative": "I'm here and ready to assist! More importantly, how are you doing? Are you experiencing any symptoms I can help you understand?"
+    },
+    "capabilities": {
+      "what_can_you_do": "I'm a medical assistant specialized in abdominal pain. I can help you:\n\n• **Understand possible causes** of abdominal pain\n• **Identify warning signs** that need immediate attention\n• **Learn about conditions** like gastritis, IBS, gallstones, and more\n• **Get guidance** on when to see a doctor\n• **Recognize symptoms** and their typical patterns\n\nPlease describe your symptoms, and I'll provide relevant information based on my medical training. Remember, I provide educational information that should complement professional medical advice.",
+      "how_can_you_help": "I can help you understand abdominal pain by providing information about symptoms, possible causes, and when to seek medical care. I'm specifically trained on conditions like appendicitis, gastritis, IBS, gallstones, and other digestive issues. Just describe what you're experiencing!"
+    },
+    "out_of_scope": {
+      "not_medical": "I'm specifically trained to help with abdominal pain and digestive health issues. Could you tell me about any stomach pain or digestive symptoms you're experiencing?",
+      "other_body_parts": "I specialize in abdominal pain and digestive issues. For other health concerns, I'd recommend consulting with a healthcare provider. Is there anything about stomach pain or digestive symptoms I can help you with?",
+      "general_non_medical": "I'm designed to assist with medical questions about abdominal pain. I don't have training in other topics. Do you have any questions about stomach pain, digestive symptoms, or when to see a doctor for abdominal issues?"
+    }
+  },
+  "follow_up_questions": {
+    "pain_assessment": [
+      "On a scale of 1-10, how would you rate your pain?",
+      "Where exactly is the pain located in your abdomen?",
+      "When did the pain start?",
+      "Is the pain constant or does it come and go?",
+      "What makes the pain better or worse?",
+      "How would you describe the pain - sharp, burning, cramping, or dull?"
+    ],
+    "associated_symptoms": [
+      "Are you experiencing any nausea or vomiting?",
+      "Do you have a fever?",
+      "Have you noticed any changes in your bowel movements?",
+      "Are you experiencing any bloating or gas?",
+      "Have you lost your appetite?",
+      "Are you having any difficulty urinating?"
+    ],
+    "context_questions": [
+      "Have you eaten anything unusual recently?",
+      "Are you taking any medications?",
+      "Have you had similar pain before?",
+      "Does the pain interfere with your daily activities?",
+      "Have you tried anything to relieve the pain?"
+    ]
+  }
+}

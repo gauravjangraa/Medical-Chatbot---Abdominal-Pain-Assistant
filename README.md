@@ -2,46 +2,6 @@
 
 
 
-📁 Project Structure
-
-medical\_chatbot/
-
-├── app/
-
-│   ├── \_\_init\_\_.py
-
-│   ├── main.py                    # FastAPI main application
-
-│   ├── models/
-
-│   │   ├── \_\_init\_\_.py
-
-│   │   └── chatbot\_model.py       # Core chatbot logic and model handling
-
-│   ├── services/
-
-│   │   ├── \_\_init\_\_.py
-
-│   │   └── chat\_service.py        # Manages chat sessions and context
-
-│   └── data/
-
-│       ├── \_\_init\_\_.py
-
-│       └── medical\_data.py        # The static medical knowledge base
-
-├── frontend/
-
-│   └── streamlit\_app.py           # The Streamlit user interface
-
-├── tests/
-
-│   └── test\_chatbot.py            # Pytest suite for the application
-
-└── requirements.txt   
-
-
-
 **Technology Used 🛠️**
 ---
 

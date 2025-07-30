@@ -5,9 +5,6 @@
 **Technology Used 🛠️**
 ---
 
-Think of these as the tools and materials used to build your chatbot:
-
-
 
 **Backend (The Engine Room):**
 
